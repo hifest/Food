@@ -1,0 +1,35 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hifest/Food.git"
+  },
+  "browserslist": "> 1%, not dead",
+  "author": "hifest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hifest/Food/issues"
+  },
+  "homepage": "https://github.com/hifest/Food#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "babel-loader": "^8.2.2",
+    "json-server": "^0.16.3",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "^7.14.8",
+    "core-js": "^3.16.0",
+    "es6-iterator": "^2.0.3"
+  }
+}
